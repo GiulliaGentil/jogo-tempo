@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+*{
+    box-sizing: border-box;
+}
 strong{
     font-weight: 200;
 }
 body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    height: 156vh;
+    height: 200vh;
+    
 }
 
 #frase{
@@ -16,26 +19,142 @@ body{
     justify-content: space-between;
     padding-right: -10%;
     margin-top: 8%;
+
     
 }
 
 h1{
     display: flex;
-    margin-left: 20%;
+    margin-left: 15%;
     font-size: 50px;
     font-family: 'Poppins';
     flex-direction: column;
-    color: black
-;
-    
+    color: black;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    word-spacing: 8px;
+    margin-top: 6%;
+}
+
+.fre{
+display: flex;
+gap: 5%;
+
+}
+
+.numeroz{
+    display: flex;
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 8%;
+    font-size: 75px;
+    color: rgb(0, 0, 0);
 }
 
 #img{
-    height: 40%;
-    width: 40%;
-    display: flex;
+   margin-right: 10%;
+   margin-top: 4%;
+}
+
+#relogio{
+    height: 55vh;
+    width: 50vw;
+    margin-left: 25%;
     margin-top: 5%;
+    border-radius: 3%;
+    border: 3px solid rgba(255, 255, 255, 0.361);
+    background-color:rgba(0, 0, 0, 0.099)
 
     
+}
+
+.foco{
+    background-color: transparent;
+    border: 0cap;
+    font-size: 16px;
+}
+
+.long{
+    background-color: transparent;
+    border: 0cap;
+    font-size: 16px;
+}
+
+.short{
+    background-color: transparent;
+    border: 0cap;
+    font-size: 16px;
+}
+
+button{
+    font-family: 'Poppins';
+}
+
+.ok{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: antiquewhite;
+    font-size: 15px;
+    border: 0cap;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
     
+  
+}
+
+.form-check{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Poppins';
+
+}
+
+hr{
+    width: 80%;
+}
+
+.linha{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.listat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-family: 'Poppins';
+}
+
+.add{
+ background-color: black;
+  color: white;
+  font-size: 15px;
+  border: 0cap;
+  border-radius: 7px;
+font-size: 20px;
+}
+
+#adicionar{
+display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 2%;
 }
